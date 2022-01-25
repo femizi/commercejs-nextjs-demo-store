@@ -195,15 +195,18 @@ class Header extends Component {
             <img
               src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
               onClick={this.toggleMobileMenu}
-              className="w-32 mr-1 d-block d-sm-none"
+              className="w-35 mr-1 d-block d-sm-none"
               alt="Menu icon"
+              
             />
             <Link href="/">
               <a>
                 <img
-                  src="/images/commerce.svg"
-                  className="logo cursor-pointer"
+                  src="/images/logo.png"
+                  className="logo cursor-pointer img-fluid"
                   alt="Logo"
+                  style={{height:'80px'}}
+                  
                 />
               </a>
             </Link>
